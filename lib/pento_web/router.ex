@@ -23,6 +23,7 @@ defmodule PentoWeb.Router do
     live "/", PageLive, :index
     live "/guess", WrongLive
     live "/promo", PromoLive
+    live "/survey", SurveyLive, :index
     # Generated product routes start here:
     live "/products", ProductLive.Index, :index
     live "/products/new", ProductLive.Index, :new
